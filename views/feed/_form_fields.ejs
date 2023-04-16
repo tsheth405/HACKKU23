@@ -1,0 +1,30 @@
+<div class="form-group">
+    <label for="userName">NAME:</label>
+    <input required value="<%= feeds.userName %>" 
+    type="text" id="userName" name="userName"><br><br>
+</div>
+<div class="form-group">
+    <label for="movie">MOVIE NAME:</label>
+    <input required value="<%= feeds.movieTitle %>" 
+    type="text" id="movie" name="movie"><br><br>
+</div>
+<div class="form-group">
+    <label for="director">DIRECTOR:</label>
+    <input required value="<%= feeds.movieTitle %>"
+    type="director" id="director" name="director" minlength="20"><br><br>
+</div>
+<div class="form-group">
+    <label for="rating">RATING:</label>
+    <input required value="<%= feeds.movieTitle %>" 
+    type="rating" id="rating" name="rating"><br><br>
+</div>
+<div class="form-group">
+        <label for="Comment">COMMENT</label>
+        <textarea name="Comment" id="Comment"><%= feeds.Comment %>
+        </textarea>
+        </div>
+</div>
+
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary">POST</button>
+                
